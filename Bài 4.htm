@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký môn thi tốt nghiệp</title>
+</head>
+<body>
+    <h1>Đăng ký môn thi tốt nghiệp</h1>
+    <form>
+        <fieldset>
+            <legend>Thông tin đăng ký</legend>
+
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="cccd">CCCD:</label>
+            <input type="text" id="cccd" name="cccd"><br><br>
+
+            <label for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label>Giới tính:</label>
+            <input type="radio" id="male" name="gender" value="Nam">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="Nữ">
+            <label for="female">Nữ</label><br><br>
+
+            <label>Môn thi:</label><br>
+            <input type="checkbox" id="math" name="subject" value="Toán">
+            <label for="math">Toán</label><br>
+            <input type="checkbox" id="literature" name="subject" value="Ngữ Văn">
+            <label for="literature">Ngữ Văn</label><br>
+            <input type="checkbox" id="foreign" name="subject" value="Ngoại ngữ">
+            <label for="foreign">Ngoại ngữ</label><br><br>
+
+            <label for="combo">Tổ hợp:</label>
+            <select id="combo" name="combo">
+                <option value="khtn">Khoa học tự nhiên</option>
+                <option value="khxh">Khoa học xã hội</option>
+            </select><br><br>
+
+            <button type="submit">Gửi thông tin</button>
+        </fieldset>
+    </form>
